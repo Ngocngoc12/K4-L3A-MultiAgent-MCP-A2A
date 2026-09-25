@@ -1,0 +1,7 @@
+﻿--- Testing POST tools/list ---
+Status: 400
+Body: {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Bad Request: Missing session ID"}}
+
+--- Testing POST tools/call ---
+Status: 400
+Body: {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Bad Request: Missing session ID"}}

@@ -1,0 +1,11 @@
+﻿Tools list:
+['get_customer_history', 'get_order', 'get_order_items', 'get_order_payments', 'get_payment_timeline', 'get_policy', 'get_product_context', 'get_refund_timeline', 'get_sellers', 'get_shipment_summary']
+Raw get_order Case 1:
+isError: True
+content: [TextContent(type='text', text='Error executing tool get_order', annotations=None, meta=None)]
+Raw get_order Case 5:
+isError: True
+content: [TextContent(type='text', text='Error executing tool get_order', annotations=None, meta=None)]
+Raw get_policy Case 1:
+isError: True
+content: [TextContent(type='text', text='Error executing tool get_policy', annotations=None, meta=None)]

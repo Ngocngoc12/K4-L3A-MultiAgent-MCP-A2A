@@ -1,0 +1,41 @@
+﻿Testing tool calls across first 10 cases...
+
+--- Case L3A_CASE_001 (order_id=e2a03ccf5ea816036608b2d8c3ab8e60) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_002 (order_id=8067c5e4834f3c0a3c8a4e921d65c5b1) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_003 (order_id=71303d7e93b399f5bcd537d124c0bcfa) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_004 (order_id=fd28a6dfe413804d0b89b7c9abf5b1f3) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_005 (order_id=9a31fd9d697e9670777501f720773fd9) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_006 (order_id=fe51b7fac3bea42115fa1c3b8973cba7) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_007 (order_id=ded456690bcb2ffd4def86541479037f) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_008 (order_id=2c0032906c603dcc21cd954828fa77d0) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_009 (order_id=3aaee056441dcae251f360b1c71a7279) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy
+
+--- Case L3A_CASE_010 (order_id=3a119f52de09d1b2700815732def8b47) ---
+  get_order FAILED: MCP tool get_order failed: Error executing tool get_order
+  get_policy FAILED: MCP tool get_policy failed: Error executing tool get_policy

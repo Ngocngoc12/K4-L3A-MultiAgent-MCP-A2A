@@ -1,0 +1,5 @@
+﻿GET https://n7-competition.pages.dev/api/mcp -> 404 {"detail":"Not Found"}
+GET https://n7-competition.pages.dev/mcp -> 400 {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Bad Request: Missing session ID"}}
+GET https://n7-competition.pages.dev/api/verify -> 404 {"detail":"Not Found"}
+GET https://day09-competition.34-142-201-239.sslip.io/mcp -> 400 {"jsonrpc":"2.0","id":null,"error":{"code":-32600,"message":"Bad Request: Missing session ID"}}
+GET https://day09-competition.34-142-201-239.sslip.io/api/mcp -> 404 {"detail":"Not Found"}

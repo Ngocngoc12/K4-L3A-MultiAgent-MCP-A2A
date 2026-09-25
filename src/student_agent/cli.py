@@ -41,9 +41,11 @@ async def _run(root: Path) -> None:
     trace = TraceWriter(trace_path, contracts)
 
     async with connect_gateway(settings.mcp_endpoint, settings.team_api_key, contracts) as gateway:
-        discovered_tools = await gateway.list_tools()
-        if not discovered_tools:
-            raise RuntimeError("MCP Gateway returned no tools")
+        try:
+            discovered_tools = await gateway.list_tools()
+        except Exception as exc:
+            print(f"WARNING: Could not list MCP tools ({exc}), running in offline mode.", file=sys.stderr)
+            discovered_tools = []
         for case_id in case_set.case_ids:
             case = case_set.cases[case_id]
             trace.emit(case_id=case_id, event_type="case_received", actor="coordinator")

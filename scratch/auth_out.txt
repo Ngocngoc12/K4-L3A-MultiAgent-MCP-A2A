@@ -1,0 +1,4 @@
+﻿Header test 'Bearer Key': isError=True, content=['Error executing tool get_policy']
+Header test 'Direct Key': isError=True, content=['Error executing tool get_policy']
+Header test 'x-team-key': isError=True, content=['Error executing tool get_policy']
+Header test 'x-api-key': isError=True, content=['Error executing tool get_policy']
